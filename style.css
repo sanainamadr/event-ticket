@@ -40,3 +40,29 @@
 .event-logo{
     height: 30px;
 }
+.img-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* mobile */
+@media (max-width: 600px){
+    .ticket-container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    .user-part{
+        width: 300px;
+        border-right: solid;
+        border-bottom: none;
+    }
+    .event-part{
+        width: 300px;
+        border-left: solid;
+        border-top: dotted;
+
+    }
+}
