@@ -1,0 +1,37 @@
+.ticket-container{
+    height: 250px;
+    width: 650px;
+    padding: 0px auto;
+    margin: 30px auto;
+    border-radius: 20px;
+    display: flex;
+
+}
+
+.user-part{
+    width: 30%;
+    height: auto;
+    
+    border-radius: 20px;
+    border: 2px solid black;
+    border-right: none;
+    padding: 8px;
+
+}
+.event-part{
+    width: 50%;
+    height: auto;
+    
+    border-radius: 20px;
+    border: 2px solid black;
+    border-left: dotted;
+    padding: 8px;
+}
+.heading{
+    text-align: center;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration:underline;
+}
+.logo{
+    height: 20px;
+}
