@@ -55,14 +55,40 @@
         width: 100%;
     }
     .user-part{
+        
         width: 300px;
         border-right: solid;
         border-bottom: none;
+        
     }
     .event-part{
         width: 300px;
         border-left: solid;
         border-top: dotted;
+        height: 290px;
+    }
+}
 
+/* tablet */
+@media (min-width: 601px) and (max-width :800px){
+    .ticket-container{
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 100%;
+    }
+    .user-part{
+        width: 600px;
+        border-right: solid;
+        border-bottom: none;
+    }
+    .event-part{
+        width: 600px;
+        border-left: solid;
+        border-top: dotted;
+        height: 290px;
+    }
+    .event-logo{
+        height: 48px;
     }
 }
