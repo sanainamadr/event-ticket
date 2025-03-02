@@ -5,33 +5,38 @@
     margin: 30px auto;
     border-radius: 20px;
     display: flex;
-
+    
 }
 
 .user-part{
     width: 30%;
     height: auto;
-    
     border-radius: 20px;
     border: 2px solid black;
     border-right: none;
     padding: 8px;
-
+    background-color: rgba(243, 235, 115, 0.568);
 }
 .event-part{
     width: 50%;
     height: auto;
-    
     border-radius: 20px;
     border: 2px solid black;
     border-left: dotted;
     padding: 8px;
+    background-color: rgba(243, 235, 115, 0.568);
 }
 .heading{
     text-align: center;
     font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration:underline;
+    background-color: rgb(167, 164, 209);
+    padding: 5px;
+    border-radius: 10px;
 }
 .logo{
-    height: 20px;
+    height: 25px;
+}
+.event-logo{
+    height: 30px;
 }
